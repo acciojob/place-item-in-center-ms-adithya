@@ -1,2 +1,22 @@
 
-/* Your CSS Code here. */
+.holder {
+  display: flex;            
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.item-1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
